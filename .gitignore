@@ -1,0 +1,27 @@
+# Privacidade estrita — sincronizado apenas com o Google Drive, nunca no Git
+atheneu/98_Privado/
+
+# Variáveis de ambiente locais
+.env
+
+# Estado volátil de janelas e cache do Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Arquivos temporários do Google Drive Desktop e sistema operacional
+**/.tmp.driveupload/
+**/.tmp.drivedownload/
+**/desktop.ini
+.DS_Store
+Thumbs.db
+
+# Temporários de escrita atômica e Python
+*.tmp
+__pycache__/
+*.py[cod]
+.venv/
+
+# Exports derivados em PDF (apenas estudos/fontes em _anexos/pdfs são versionados)
+atheneu/99_Sistema/_exports/

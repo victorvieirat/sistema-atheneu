@@ -1,0 +1,9 @@
+/* Oculta pastas técnicas do motor na árvore lateral do Obsidian, mantendo visíveis apenas AGENTS.md e atheneu/ */
+.nav-folder:has(> .nav-folder-title[data-path="scripts"]),
+.nav-folder:has(> .nav-folder-title[data-path="mcp"]),
+.nav-folder-title[data-path="scripts"],
+.nav-folder-title[data-path="mcp"],
+.nav-folder-title[data-path="scripts"] + .nav-folder-children,
+.nav-folder-title[data-path="mcp"] + .nav-folder-children {
+  display: none !important;
+}

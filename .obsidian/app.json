@@ -1,0 +1,16 @@
+{
+  "attachmentFolderPath": "atheneu/99_Sistema/_anexos",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "atheneu/00_Inbox",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "userIgnoreFilters": [
+    "scripts/",
+    "mcp/",
+    "atheneu/98_Privado/",
+    "atheneu/99_Sistema/"
+  ]
+}
