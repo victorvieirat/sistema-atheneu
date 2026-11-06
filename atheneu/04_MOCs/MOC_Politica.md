@@ -1,7 +1,7 @@
 ---
 tags:
   - moc
-atualizado: 2026-11-02
+atualizado: 2026-11-06
 ---
 
 # MOC — Política e Sociedade
@@ -13,6 +13,7 @@ Portal de navegação para instituições democráticas, psicologia e comunicaç
 ## 1. Psicologia Política e Metodologia de Diálogo
 - [[Psicologia_Escuta_e_Persuasao_Politica]] — Reatância cognitiva, validação emocional de frustrações concretas, crítica ao elitismo intelectual e construção de horizonte de melhora.
 - [[Metodo_Conversa_Politica_Cinco_Tempos]] — Estrutura prática de diálogo interpessoal (*deep canvassing*), rotina contínua e estratégia de conversão ou neutralização tática.
+- [[Repertorio_Retorico_Gasto_Social_OCDE_Juros_e_Industrializacao]] — Roteiro em 5 rounds curtos para debate sobre gastos em Saúde/Educação (IBGE/OCDE), custo da dívida (Selic) e reindustrialização.
 
 ## 2. Instituições, Controle Anticorrupção e Redes de Poder
 - [[Autonomia_Policia_Federal_e_Mecanismos_Anticorrupcao]] — Contraste institucional entre autonomia investigativa (PF, CGU, COAF, STF) e interferência política direta na direção policial.
@@ -22,9 +23,10 @@ Portal de navegação para instituições democráticas, psicologia e comunicaç
 - [[Evolucao_Mortes_Violentas_e_Seguranca_Publica_Brasil]] — Série histórica 2012–2025 das Mortes Violentas Intencionais (FBSP), reversão pós-2017 e recortes regionais.
 - [[Conflitos_Fundiarios_e_Violencia_Contra_Indigenas_MS]] — Escalada de violência contra povos indígenas no Mato Grosso do Sul e desafios federais de demarcação e proteção.
 
-## 4. Poder Legislativo Federal
+## 4. Poder Legislativo Federal e Programas de Reforma Estrutural
 - [[Votacoes_Estruturais_Congresso_Direitos_e_Tributacao]] — Histórico e impacto material das votações sobre Teto de Gastos, Reforma Trabalhista, Previdência, Reforma Tributária e Blindagem Parlamentar.
 - [[Alinhamento_Partidario_no_Congresso_Nacional]] — Comportamento quantitativo das bancadas partidárias nas pautas econômicas, trabalhistas e institucionais.
+- [[Programa_Treze_Compromissos_Reformas_Estruturais_2027_2031]] — Plataforma programática (Jones Manoel & Pedro Alcântara) para o ciclo 2027–2031: fim da escala 6x1 (35h), regulação de aplicativos, limite de juros, Tarifa Zero, Terrabras, plebiscito do Judiciário e revogação do Arcabouço Fiscal.
 
 ## 5. Política Estadual — Rio Grande do Norte
 - [[Cenario_Politico_e_Composicao_ALRN_2026]] — Correlação de forças no Executivo, Senado, bancada federal e blocos parlamentares da Assembleia Legislativa do RN.
@@ -36,6 +38,9 @@ Portal de navegação para instituições democráticas, psicologia e comunicaç
 ## Sub-Portais e Fontes Relacionadas
 - **Portal de Campanha e Repertório Prático**: [[MOC_Eleicoes_2026]]
 - **Fontes Primárias**:
+  - [[Fonte_Artigo_Andre_Lara_Resende_Eu_Acuso_Juros_2026]]
   - [[Fonte_Manual_da_Virada_e_Analise_Filipe_Boni]]
+  - [[Fonte_Carta_ao_Presidente_Lula_Jones_Manoel_2026]]
+  - [[Fonte_Video_David_Deccache_Impacto_Material_Austeridade_SUS]]
   - [[Fonte_Anuario_Seguranca_Publica_2026]]
   - [[Fonte_Relatorio_Execucao_Orcamentaria_RN_2026]]

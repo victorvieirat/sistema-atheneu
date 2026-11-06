@@ -19,9 +19,10 @@ Biblioteca viva de crescimento incremental em formato Zettelkasten. Ideias, estu
 | [[MOC_Economia]] | Macroeconomia estruturalista/keynesiana, regras fiscais, previdência, precificação da Petrobras, regulação bancária (FGC) e orçamento público. |
 | [[MOC_Carreira_e_Tecnologia]] | Arquitetura serverless no Google Cloud Run, segurança OAuth 2.0/Secret Manager e fluxos avançados com Gemini Pro e Workspace. |
 | [[MOC_Biologia_e_Saude]] | Neurociência do sono (modelo de Borbély), farmacocinética da cafeína e engenharia de rotina circadiana para alta performance cognitiva. |
+| [[MOC_Moda_e_Beleza]] | Estilização capilar masculina (Bro Flow e cachos 3A/3B), cosmetologia de proteção térmica, controle de porosidade e curadoria técnica de produtos. |
 
 > [!tip] Próximos Domínios Planejados (Criação Sob Demanda)
-> Os portais `MOC_Filosofia`, `MOC_Historia`, `MOC_Moda_e_Beleza` e `MOC_Familia_e_Relacoes` serão inaugurados em `04_MOCs/` assim que suas primeiras notas atômicas ingressarem no Jardim.
+> Os portais `MOC_Filosofia`, `MOC_Historia` e `MOC_Familia_e_Relacoes` serão inaugurados em `04_MOCs/` assim que suas primeiras notas atômicas ingressarem no Jardim.
 
 ---
 

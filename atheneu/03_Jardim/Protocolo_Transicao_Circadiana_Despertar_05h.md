@@ -19,20 +19,20 @@ Protocolo operacional completo para mudança estrutural de rotina visando desper
 
 ## 1. Arquitetura da Rotina Diária (5 Ciclos de 90 Minutos)
 
-| Horário | Bloco / Atividade | Objetivo Fisiológico e Técnico |
-| :--- | :--- | :--- |
-| **04:40 – 05:00** | Simulação do Amanhecer | Lâmpada Wi-Fi sobe de **1% (2700K laranja)** a **100% (luz fria 5000K–6500K)**. Suprime melatonina através das pálpebras e induz transição para o sono leve. |
-| **05:00** | Despertar e Ativação | Alarme vibratório na smartband em janela de sono leve. Ingestão imediata de **400 ml de água**, luz forte direta e troca de roupa (sair do pijama). |
-| **05:15 – 07:15** | Bloco 1 de Estudos (Casa) | Pico de dopamina matinal e córtex pré-frontal descansado. Foco em **Teoria Complexa / TI / Exatas / Leitura densa** em silêncio absoluto. |
-| **07:15 – 07:45** | Pausa e Café da Manhã | Exposição à **luz solar natural** (janela/varanda, **> 10.000 lux**) para cravar o avanço circadiano do DLMO. Refeição proteica e café. |
-| **07:45 – 09:30** | Bloco 2 de Estudos (Casa) | Estudo ativo: resolução de baterias de questões, simulados e revisão espaçada (*Active Recall* / *Callouts*). |
-| **09:30 – 10:00** | Transição e Deslocamento | Preparação rápida e deslocamento para o trabalho fora do horário de pico crítico de trânsito. |
-| **10:00 – 13:00** | Trabalho — Bloco 1 (3h) | Execução das demandas profissionais da manhã. **Limite máximo estrito para última dose de cafeína às 13h00**. |
-| **13:00 – 14:30** | Treino de Força + Almoço | Quebra mental do meio-dia. Estímulo muscular composto intenso (geração de adenosina para o sono profundo N3) seguido de refeição. |
-| **14:30 – 19:30** | Trabalho — Bloco 2 (5h) | Fechamento das **8 horas** de jornada profissional. |
-| **19:30 – 20:30** | Jantar, Banho Quente e Setup | Refeição leve, **banho quente (20h00–20h15)** para vasodilatação térmica periférica e preparação da bancada para as 05h00 do dia seguinte. |
-| **20:30 – 21:30** | Túnel de Pouso (*Wind-Down*) | Zero código ou estudo. Luzes de teto apagadas (apenas luz âmbar baixa). Leitura leve em papel ou relaxamento sem telas brilhantes. |
-| **21:30** | Dormir (Luzes Apagadas) | Início da janela de **7h30 de sono estruturado** (**5 ciclos completos de 90 minutos** até as 05h00). |
+| Horário           | Bloco / Atividade            | Objetivo Fisiológico e Técnico                                                                                                                               |
+| :---------------- | :--------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **04:40 – 05:00** | Simulação do Amanhecer       | Lâmpada Wi-Fi sobe de **1% (2700K laranja)** a **100% (luz fria 5000K–6500K)**. Suprime melatonina através das pálpebras e induz transição para o sono leve. |
+| **05:00**         | Despertar e Ativação         | Alarme vibratório na smartband em janela de sono leve. Ingestão imediata de **400 ml de água**, luz forte direta e troca de roupa (sair do pijama).          |
+| **05:15 – 07:15** | Bloco 1 de Estudos (Casa)    | Pico de dopamina matinal e córtex pré-frontal descansado. Foco em **Teoria Complexa / TI / Exatas / Leitura densa** em silêncio absoluto.                    |
+| **07:15 – 07:45** | Pausa e Café da Manhã        | Exposição à **luz solar natural** (janela/varanda, **> 10.000 lux**) para cravar o avanço circadiano do DLMO. Refeição proteica e café.                      |
+| **07:45 – 09:30** | Bloco 2 de Estudos (Casa)    | Estudo ativo: resolução de baterias de questões, simulados e revisão espaçada (*Active Recall* / *Callouts*).                                                |
+| **09:30 – 10:00** | Transição e Deslocamento     | Preparação rápida e deslocamento para o trabalho fora do horário de pico crítico de trânsito.                                                                |
+| **10:00 – 13:00** | Trabalho — Bloco 1 (3h)      | Execução das demandas profissionais da manhã. **Limite máximo estrito para última dose de cafeína às 13h00**.                                                |
+| **13:00 – 14:30** | Treino de Força + Almoço     | Quebra mental do meio-dia. Estímulo muscular composto intenso (geração de adenosina para o sono profundo N3) seguido de refeição.                            |
+| **14:30 – 19:30** | Trabalho — Bloco 2 (5h)      | Fechamento das **8 horas** de jornada profissional.                                                                                                          |
+| **19:30 – 20:30** | Jantar, Banho Quente e Setup | Refeição leve, **banho quente (20h00–20h15)** para vasodilatação térmica periférica e preparação da bancada para as 05h00 do dia seguinte.                   |
+| **20:30 – 21:30** | Túnel de Pouso (*Wind-Down*) | Zero código ou estudo. Luzes de teto apagadas (apenas luz âmbar baixa). Leitura leve em papel ou relaxamento sem telas brilhantes.                           |
+| **21:30**         | Dormir (Luzes Apagadas)      | Início da janela de **7h30 de sono estruturado** (**5 ciclos completos de 90 minutos** até as 05h00).                                                        |
 
 ## 2. Engenharia de Ambiente: Transição da Cabine para Casa
 

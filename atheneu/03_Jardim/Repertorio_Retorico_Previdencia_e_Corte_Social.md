@@ -11,6 +11,7 @@ tags:
 fontes:
   - "[[Fonte_DIEESE_Sintese_Tesouraco_200_Bilhoes]]"
   - "[[Fonte_Manual_da_Virada_e_Analise_Filipe_Boni]]"
+  - "[[Fonte_Video_David_Deccache_Impacto_Material_Austeridade_SUS]]"
   - "https://www.dieese.org.br/notatecnica/2025/notaTec283salarioMinimo/3.html"
   - "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   - "https://www.tse.jus.br"
@@ -19,7 +20,7 @@ atualizado: 2026-11-02
 
 # Repertório Retórico: Previdência, Salário Mínimo e Corte Social
 
-Guia operacional de diálogo interpessoal e resposta a objeções cotidianas sobre **aposentadorias, BPC, custo fiscal e propostas de corte de gastos públicos**. Para os fundamentos teóricos e econométricos subjacentes, consulte [[Regra_Valorizacao_Salario_Minimo_Previdencia_e_BPC]], [[Arcabouco_Fiscal_Teto_de_Gastos_e_Ajuste_Recessivo]], [[Macroeconomia_Estruturalista_e_Multiplicador_Fiscal]] e [[Soberania_Monetaria_e_Reservas_Cambiais_Brasil]]. A condução de cada diálogo aplica a postura descrita em [[Psicologia_Escuta_e_Persuasao_Politica]] e o roteiro sequencial do [[Metodo_Conversa_Politica_Cinco_Tempos]].
+Guia operacional de diálogo interpessoal e resposta a objeções cotidianas sobre **aposentadorias, BPC, custo fiscal e propostas de corte de gastos públicos**. Para os fundamentos teóricos e econométricos subjacentes, consulte [[Regra_Valorizacao_Salario_Minimo_Previdencia_e_BPC]], [[Arcabouco_Fiscal_Teto_de_Gastos_e_Ajuste_Recessivo]], [[Metrica_Material_da_Austeridade_e_Servicos_Publicos]], [[Macroeconomia_Estruturalista_e_Multiplicador_Fiscal]] e [[Soberania_Monetaria_e_Reservas_Cambiais_Brasil]]. A condução de cada diálogo aplica a postura descrita em [[Psicologia_Escuta_e_Persuasao_Politica]] e o roteiro sequencial do [[Metodo_Conversa_Politica_Cinco_Tempos]].
 
 ---
 
@@ -75,8 +76,8 @@ Toda objeção fiscal ou previdenciária no cotidiano (família, trabalho ou Wha
 
 ### Objeção 8: "Tem que cortar gasto público mesmo! Se fizer um tesouraço, a economia melhora e a inflação cai."
 - **Acolhimento**: *"Cortar desperdício todo mundo apoia; a questão real é saber de onde sai esse corte."*
-- **Fato Material**: *"Se congelar gasto social resolvesse a carestia, os quatro anos de Teto de Gastos no governo Bolsonaro teriam sido um paraíso de preços baixos. Foi o período em que mais se cortou verba pública, e mesmo assim a inflação bateu dois dígitos, o botijão de gás chegou a R$ 130, a gasolina bateu R$ 8 e voltou a fila do osso. Quase todo o orçamento federal obrigatório está em Previdência, BPC, Saúde e Educação — não existe corte de R$ 200 bilhões sem atacar esses direitos."*
-- **Pergunta Indutora (Manual da Virada)**: *"Flávio Bolsonaro promete um 'tesouraço' nos gastos sem dizer exatamente onde vai cortar... você acha que na hora H ele vai cortar dos banqueiros ou vai cortar da saúde, da escola e do salário mínimo?"*
+- **Fato Material**: *"Se congelar gasto social resolvesse a carestia, os quatro anos de Teto de Gastos no governo Bolsonaro teriam sido um paraíso de preços baixos. Foi o período em que mais se cortou verba pública, e mesmo assim a inflação bateu dois dígitos, o botijão de gás chegou a R$ 130, a gasolina bateu R$ 8 e voltou a fila do osso. Quase todo o orçamento federal obrigatório está em Previdência, BPC, Saúde e Educação — não existe corte de R$ 200 bilhões sem atacar esses direitos. Além disso, a austeridade é seletiva: para o SUS falta dinheiro, mas o Tesouro gastou mais de R$ 30 bilhões para recomprar títulos públicos e socorrer especuladores de apostas erradas ([[Metrica_Material_da_Austeridade_e_Servicos_Publicos]])."*
+- **Pergunta Indutora (Métrica Material e Manual da Virada)**: *"Flávio Bolsonaro promete um 'tesouraço' de bilhões sem abrir a conta real: para economizar esse dinheiro, quantos leitos de hospital eles pretendem fechar, quantas cirurgias do SUS vão cancelar e quantas pessoas vão ficar sem remédio? Você acha que na hora H vão cortar dos banqueiros ou vão cortar da vida de quem precisa do posto de saúde?"*
 
 ### Objeção 9: "Mas o Lula também cortou gastos e colocou uma trava de 2,5% no Arcabouço Fiscal!"
 - **Acolhimento e Honestidade Radical**: *"Você tem toda razão nessa crítica. Nós também apontamos que o limite de 2,5% do Arcabouço Fiscal ([[Arcabouco_Fiscal_Teto_de_Gastos_e_Ajuste_Recessivo]]) imposto pela área econômica amarra a velocidade dos investimentos públicos, e a situação está longe de ser perfeita."*

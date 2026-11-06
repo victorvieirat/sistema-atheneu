@@ -21,3 +21,4 @@ Portal de navegação para neurociência, cronobiologia, fisiologia humana, bioq
 
 ## Conexões Interdisciplinares
 - **Produtividade e Estudo Profundo**: O bloco matinal de pico dopaminérgico e córtex pré-frontal descansado sustenta fluxos complexos em [[MOC_Carreira_e_Tecnologia]].
+- **Tricologia, Cosmetologia e Rotina de Cuidados**: A química cuticular de proteção térmica/UV e o encaixe de cuidados pessoais nas janelas de transição diária conectam-se a [[MOC_Moda_e_Beleza]].

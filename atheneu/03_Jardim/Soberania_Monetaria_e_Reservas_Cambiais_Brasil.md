@@ -9,9 +9,10 @@ tags:
 fontes:
   - "[[Fonte_DIEESE_Sintese_Tesouraco_200_Bilhoes]]"
   - "[[Fonte_Estudo_Grande_Recessao_Brasileira_USP]]"
+  - "[[Fonte_Artigo_Andre_Lara_Resende_Eu_Acuso_Juros_2026]]"
   - "https://www.bcb.gov.br/estatisticas/reservasinternacionais"
   - "https://www.tesourotransparente.gov.br/temas/divida-publica-federal"
-atualizado: 2026-11-02
+atualizado: 2026-11-06
 ---
 
 # Soberania Monetária e Reservas Cambiais no Brasil
@@ -61,4 +62,4 @@ Reconhecer a soberania monetária não equivale a postular ausência de limites 
 - **Multiplicadores e Demanda Agregada**: A articulação entre financiamento em moeda própria, taxa de juros e expansão do produto interno fundamenta [[Macroeconomia_Estruturalista_e_Multiplicador_Fiscal]].
 - **Regimes Fiscais Brasileiros**: O impacto da taxa real de juros sobre o superávit primário requerido para estabilizar a dívida bruta (matriz da IFI) é detalhado em [[Arcabouco_Fiscal_Teto_de_Gastos_e_Ajuste_Recessivo]].
 - **Choques Externos e Inflação de Custos**: A transmissão da volatilidade cambial e de *commodities* para os preços internos depende criticamente de mecanismos setoriais analisados em [[Grande_Recessao_Brasileira_2014_2016_e_Austeridade]] e [[Politica_Precos_Petrobras_PPI_e_Inflacao_de_Custos]].
-- **Tradução para o Debate Público**: O desmonte prático da falsa analogia entre Brasil e Argentina para conversas cotidianas encontra-se em [[Repertorio_Retorico_Previdencia_e_Corte_Social]].
+- **Tradução para o Debate Público**: O desmonte prático da falsa analogia entre Brasil e Argentina para conversas cotidianas encontra-se em [[Repertorio_Retorico_Previdencia_e_Corte_Social]], enquanto a decomposição do serviço da dívida (Selic), gastos sociais na OCDE e restrição externa pela desindustrialização está estruturada em [[Servico_da_Divida_Selic_e_Restricao_Externa_Desindustrializacao]] e [[Repertorio_Retorico_Gasto_Social_OCDE_Juros_e_Industrializacao]].

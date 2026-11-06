@@ -12,6 +12,7 @@ tags:
 fontes:
   - "[[Fonte_DIEESE_Sintese_Tesouraco_200_Bilhoes]]"
   - "[[Fonte_Estudo_Grande_Recessao_Brasileira_USP]]"
+  - "[[Fonte_Video_David_Deccache_Impacto_Material_Austeridade_SUS]]"
   - "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm"
   - "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm"
   - "https://www.tesourotransparente.gov.br"
@@ -35,7 +36,7 @@ A arquitetura das **regras fiscais** define o espaço institucional do Estado br
 ### Limites e Tensões do Novo Arcabouço Fiscal (LC 200/2023)
 
 - **Superação da Asfixia Absoluta da EC 95**: Após a aprovação da **PEC da Transição (EC 126/2022, R$ 145 bilhões)** para garantir o Bolsa Família de `R$ 600`, a Farmácia Popular e a recomposição ministerial na LOA 2023, a **Lei Complementar nº 200/2023** restaurou um piso anticíclico mínimo (`0,6%` de crescimento real mesmo em baixa arrecadação) e reabilitou os mínimos constitucionais de Saúde e Educação.
-- **Crítica Estruturalista à Trava de 2,5%**: Sob a lente de [[Macroeconomia_Estruturalista_e_Multiplicador_Fiscal]], o limite máximo de expansão real de **2,5% ao ano** combinado à perseguição de metas rígidas de déficit primário zero impõe restrições severas à velocidade de expansão do investimento público. Como despesas previdenciárias e pisos constitucionais acompanham o crescimento da receita e do salário mínimo, o teto global de `2,5%` gera compressão recorrente sobre despesas discricionárias e investimentos estruturantes, exigindo disputa política permanente contra pressões contracionistas do mercado financeiro.
+- **Crítica Estruturalista à Trava de 2,5%**: Sob a lente de [[Macroeconomia_Estruturalista_e_Multiplicador_Fiscal]], o limite máximo de expansão real de **2,5% ao ano** combinado à perseguição de metas rígidas de déficit primário zero impõe restrições severas à velocidade de expansão do investimento público. Como despesas previdenciárias e pisos constitucionais acompanham o crescimento da receita e do salário mínimo, o teto global de `2,5%` gera compressão recorrente sobre despesas discricionárias e investimentos estruturantes — tensionamento sintetizado à esquerda na proposta de revogação do NAF e transição para planejamento plurianual por metas sociais e industriais (`22%` do PIB) em [[Programa_Treze_Compromissos_Reformas_Estruturais_2027_2031]]. Além disso, conforme aponta [[Metrica_Material_da_Austeridade_e_Servicos_Publicos]], a regra fiscal convive com a contradição da austeridade seletiva: enquanto se pressionam pisos de saúde e educação, dezenas de bilhões de reais (como os **R$ 30 bilhões** gastos pelo Tesouro para recomprar títulos públicos desvalorizados no mercado secundário) são liberados para proteger carteiras financeiras privadas de oscilações adversas.
 
 ### Anatomia Técnica do "Tesouraço" de R$ 200 Bilhões (Síntese Especial DIEESE nº 25)
 

@@ -8,6 +8,7 @@ tags:
   - sistema-financeiro
   - previdencia
 fontes:
+  - "[[Fonte_Carta_ao_Presidente_Lula_Jones_Manoel_2026]]"
   - "https://www.bcb.gov.br"
   - "https://www.fgc.org.br"
   - "https://piaui.uol.com.br/web/mensagens-celular-flavio-vorcaro/"
@@ -46,7 +47,7 @@ Para sustentar um custo de captação substancialmente superior à taxa básica 
 | Canal de Transmissão | Mecanismo Financeiro / Regulatório | Impacto Concreto sobre Trabalhadores, Crédito e Contas Públicas |
 | :--- | :--- | :--- |
 | **Patrimônio do FGC e *Spreads* Bancários** | Desembolso recorde superior a **R$ 40 bilhões** só no conglomerado Master (mais **R$ 5,75 bi** no Will Bank e `~R$ 4,5 bi` em liquidações correlatas, superando **R$ 50 bilhões** a partir de jan/2026), exigindo aportes extraordinários de liquidez dos bancos associados. | Os bancos comerciais tratam contribuições ordinárias e recomposições extraordinárias ao FGC como **custo regulatório de intermediação**, repassando-as estruturalmente aos **spreads bancários e tarifas de crédito** pagos por famílias e empresas produtivas. |
-| **Previdência de Servidores Públicos (RPPS)** | Regimes Próprios de Previdência Social de estados e municípios aplicaram reservas técnicas em letras financeiras e fundos ligados ao Banco Master **acima do teto ou sem cobertura do FGC**. | Perdas patrimoniais diretas nos fundos de aposentadoria de **professores, policiais civis, enfermeiros e servidores municipais**, posteriormente cobertas por **aumento de alíquotas previdenciárias nos contracheques** e corte de investimentos locais. |
+| **Previdência de Servidores Públicos (RPPS)** | Regimes Próprios de Previdência Social de estados e municípios aplicaram cerca de **R$ 1,8 bilhão** de reservas técnicas em letras financeiras e fundos ligados ao Banco Master **acima do teto ou sem cobertura do FGC**. | Perdas patrimoniais diretas nos fundos de aposentadoria de **professores, policiais civis, enfermeiros e servidores municipais**, posteriormente cobertas por **aumento de alíquotas previdenciárias nos contracheques** e corte de investimentos locais (impulsionando pautas de vedação de vínculos financeiros entre banqueiros e o alto escalão judicial em [[Programa_Treze_Compromissos_Reformas_Estruturais_2027_2031]]). |
 | **Risco a Bancos Públicos (BRB)** | Negociação prévia de carteiras de crédito duvidosas e tentativa de incorporação societária pelo banco estatal do Distrito Federal. | Exposição de recursos públicos destinados ao fomento regional, crédito imobiliário popular e financiamento de pequenas empresas. |
 | **Investidores Retidos e Consignado** | Valores garantidos pelo FGC permanecem **sem correção monetária ou inflacionária** entre a decretação da liquidação (nov/2025) e o efetivo pagamento; tomadores de consignado permanecem presos a contratos onerosos. | Perda real de poder aquisitivo para pequenos poupadores durante o trâmite liquidatório e drenagem prolongada da renda previdenciária na ponta tomadora. |
 
