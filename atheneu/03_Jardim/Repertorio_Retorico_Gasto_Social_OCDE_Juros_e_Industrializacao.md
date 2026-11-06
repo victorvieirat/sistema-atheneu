@@ -57,16 +57,23 @@ Fontes: FMI (IMF Fiscal Monitor / World Economic Outlook - GGXONLB_NGDP & GGXCNL
 %%
 
 **Mensagem Pronta (Sua Adaptação Revisada + Lista de Links no Final):**
-> Entendo demais a sua revolta e indignação. Tudo o que vou dizer aqui não é contra a sua preocupação — pelo contrário, acho muito importante entre nós debatermos isso, pois a gente só leva marretada na cabeça e quase não participa das discussões políticas que mudam a nossa vida.
+> Entendo demais a sua revolta e indignação. Acho muito importante entre nós debatermos isso, pois a gente o cidadão só leva as coisas de cima para baixo e quase não participa das discussões políticas que mudam a nossas vidas.
 >
-> Sobre esse dado de **9,6% do PIB em saúde** que você trouxe: ele é verdadeiro mesmo e vem da pesquisa **Conta-Satélite de Saúde do próprio IBGE**. Só que tem um detalhe: esses 9,6% **somam o gasto público com o gasto privado**. Na própria pesquisa do IBGE, o **Estado brasileiro gasta apenas 3,8% do PIB com saúde pública (SUS)**, enquanto os outros **5,8% do PIB** são o que nós gastamos diretamente do nosso bolso usando serviços privados de saúde e comprando remédios (na OCDE, só o gasto público dos governos já é de 6,5% a 7,5% do PIB).
+> Sobre esse dado de **9,6% do PIB em saúde** que você trouxe: ele é verdadeiro mesmo e vem da pesquisa **Conta-Satélite de Saúde do próprio IBGE**. Só que tem um detalhe: esses 9,6% **somam o gasto público com o gasto privado** na verdade o  governo do Brasil gasta  ~3,8% do PIB com saúde pública...
 >
-> *(ANEXAR PRINT 1: Matéria do G1 / IBGE sobre Saúde)*
+> ![[Pasted image 20261106115228.png]]
 >
-> Mas, sendo bem sincero contigo, **nem chega a ser esse o ponto realmente importante** que faz a conta do Brasil não fechar. O gargalo não está no SUS nem na escola, está no **serviço da dívida (juros)**.
+> Mas, sendo bem sincero contigo, **nem chega a ser esse o ponto realmente importante** que faz a conta do Brasil não fechar. O gargalo não está no SUS nem na escola, está no **serviço da dívida (juros)**. **O Brasil não tem crise de dívida ou de gasto social tem crise do custo da dívida:**
+> .
 >
-> **O Brasil não tem crise de dívida ou de gasto social; tem crise do custo da dívida:**
+> 
 > - **Déficit Primário** (tudo o que o Estado gasta com saúde, educação, previdência e obras menos o que arrecada, **sem contar os juros**): nos 12 meses até agosto, foi de **R$ 82 bilhões** (cerca de 0,6% do PIB, ou -0,34% na série do FMI, praticamente empatado e muito menor que o dos EUA, China e Alemanha).
+> - ![[Pasted image 20261106115623.png]]
+
+Defici primaria nos outors paises
+![[Pasted image 20261106115647.png]]
+
+
 > - **Déficit Nominal / Juros da Dívida**: nesse mesmo período, só de **juros sobre a dívida** o Estado pagou **R$ 1,18 trilhão (8,9% do PIB)** — **mais de 14 vezes o déficit primário**! E grande parte da dívida pública **é atrelada à própria Selic**: a cada dia que passa ficamos mais sujeitos ao curtíssimo prazo e às oscilações do humor dos atores econômicos.
 >
 > *(ANEXAR PRINT 2: Tabela/Gráfico do Banco Central)*
@@ -77,7 +84,8 @@ Fontes: FMI (IMF Fiscal Monitor / World Economic Outlook - GGXONLB_NGDP & GGXCNL
 >
 > *(ANEXAR PRINT 5: Reportagem Poder360 — Brasil lidera ranking mundial de juros reais com 9,49%)*
 >
-> **Links com tudo o que falei:**
+> **Links com tudo o que falei:
+> 1 .https://www.imf.org/external/datamapper/pb@FPP/ITA**
 > 1. **G1 / IBGE (Famílias gastam 5,8% do PIB com saúde e governo gasta apenas 3,8%)**: https://g1.globo.com/economia/noticia/2022/04/14/despesa-das-familias-com-saude-cresce-mais-que-a-do-governo-mostra-ibge.ghtml
 > 2. **André Lara Resende, um dos pais do Plano Real (*Eu Acuso: uma proposta para eliminar os juros absurdos*)**: https://andrelararesende.substack.com/p/eu-acuso-uma-proposta-para-eliminar
 > 3. **Poder360 (Dívida atrelada à Selic bate recorde histórico em 2026)**: https://www.poder360.com.br/poder-economia/divida-atrelada-a-selic-bate-recorde-historico-em-2026/
