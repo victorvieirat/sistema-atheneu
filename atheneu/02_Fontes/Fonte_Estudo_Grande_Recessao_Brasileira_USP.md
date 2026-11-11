@@ -2,12 +2,13 @@
 tipo_fonte: artigo_cientifico
 autor: "José Luís Oreiro"
 ano: 2017
-url_ou_arquivo: "[[atheneu/99_Sistema/_anexos/pdfs/estudo_grande_recessao_brasileira_2017.pdf]]"
+url_ou_arquivo: "[[estudo_grande_recessao_brasileira_2017.pdf]]"
 mocs:
   - "[[MOC_Economia]]"
+  - "[[MOC_Combate_Austeridade_Fiscal]]"
 tags:
   - fonte
-  - macroeconomia
+  - keynesianismo
   - austeridade
 atualizado: 2026-11-02
 ---
@@ -17,7 +18,7 @@ atualizado: 2026-11-02
 ### Referência Primária
 - **Título Original**: *A grande recessão brasileira: diagnóstico e uma agenda de política econômica*
 - **Autor e Publicação**: José Luís Oreiro — *Estudos Avançados* (IEA-USP), v. 31, n. 89, p. 75–88, 2017.
-- **Arquivo Local**: [[atheneu/99_Sistema/_anexos/pdfs/estudo_grande_recessao_brasileira_2017.pdf|PDF Integral (14 páginas)]]
+- **Arquivo Local**: [[estudo_grande_recessao_brasileira_2017.pdf|PDF Integral (14 páginas)]]
 
 ### Síntese Executiva
 - **Magnitude da Contração**: Entre o 2º trimestre de 2014 e o 3º trimestre de 2016, o PIB real brasileiro encolheu **8,33%** (Ipeadata), configurando a recessão mais profunda e prolongada desde o pós-Segunda Guerra Mundial.

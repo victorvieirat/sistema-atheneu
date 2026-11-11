@@ -1,0 +1,79 @@
+filters:
+  or:
+    - file.inFolder("atheneu/03_Jardim")
+    - file.inFolder("atheneu/05_Esforcos")
+    - file.inFolder("atheneu/01_Diario")
+properties:
+  status:
+    displayName: Status de Estudo
+  mocs:
+    displayName: MOCs
+  tags:
+    displayName: Tags
+  atualizado:
+    displayName: Atualizado
+  file.folder:
+    displayName: Pasta
+views:
+  - type: table
+    name: Triagem (01_Diario)
+    filters:
+      and:
+        - file.inFolder("atheneu/01_Diario")
+        - status != "dominada"
+    order:
+      - file.name
+      - status
+      - tags
+      - atualizado
+  - type: table
+    name: Em Estudo e Sementes
+    filters:
+      and:
+        - status != "dominada"
+        - status != null
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - tags
+      - mocs
+      - atualizado
+  - type: table
+    name: Jardim por Grande Área
+    filters:
+      and:
+        - file.inFolder("atheneu/03_Jardim")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - tags
+      - atualizado
+  - type: table
+    name: Combate à Austeridade Fiscal
+    filters:
+      or:
+        - file.hasTag("austeridade")
+        - file.hasTag("juros")
+        - file.hasLink("MOC_Combate_Austeridade_Fiscal")
+    order:
+      - file.name
+      - status
+      - file.folder
+      - tags
+      - atualizado
+  - type: table
+    name: Esforços Táticos (05_Esforcos)
+    filters:
+      and:
+        - file.inFolder("atheneu/05_Esforcos")
+    order:
+      - file.name
+      - status
+      - tags
+      - atualizado

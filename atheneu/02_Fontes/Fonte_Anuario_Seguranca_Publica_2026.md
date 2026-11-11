@@ -18,7 +18,7 @@ atualizado: 2026-11-02
 - **Instituição**: Fórum Brasileiro de Segurança Pública (FBSP).
 - **Link Oficial**: [Anuário FBSP 2026 (PDF)](https://forumseguranca.org.br/wp-content/uploads/2026/07/anuario-2026.pdf)
 - **Cobertura Jornalística Relacionada**: [Terra — Mortes violentas no Brasil caem ao menor nível em 13 anos](https://www.terra.com.br/noticias/mortes-violentas-no-brasil-caem-ao-menor-nivel-em-13-anos,b3b99c8c3c561d070647b9b9b5b1c6561l0y30zf.html)
-- **Tabela Extraída Localmente**: [[atheneu/99_Sistema/_anexos/img/grafico_mortes_violentas_brasil_fbsp.png|Série MVI por 100 mil hab. (2012-2025)]]
+- **Tabela Extraída Localmente**: [[grafico_mortes_violentas_brasil_fbsp.png|Série MVI por 100 mil hab. (2012-2025)]]
 
 ### Síntese Executiva
 - **Indicador Padronizado (MVI)**: Soma homicídios dolosos, latrocínios, lesões corporais seguidas de morte e mortes decorrentes de intervenções policiais por 100 mil habitantes nas 27 Unidades da Federação.

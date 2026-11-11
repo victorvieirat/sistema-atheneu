@@ -2,14 +2,15 @@
 tipo_fonte: relatorio_tecnico
 autor: "DIEESE (Departamento Intersindical de Estatística e Estudos Socioeconômicos)"
 ano: 2026
-url_ou_arquivo: "[[atheneu/99_Sistema/_anexos/pdfs/dieese_impactos_ajuste_fiscal_200bi_2026.pdf]]"
+url_ou_arquivo: "[[dieese_impactos_ajuste_fiscal_200bi_2026.pdf]]"
 mocs:
   - "[[MOC_Economia]]"
   - "[[MOC_Eleicoes_2026]]"
+  - "[[MOC_Combate_Austeridade_Fiscal]]"
 tags:
   - fonte
   - austeridade
-  - mercado-de-trabalho
+  - trabalho
 atualizado: 2026-11-02
 ---
 
@@ -18,7 +19,7 @@ atualizado: 2026-11-02
 ### Referência Primária
 - **Título Original**: *A proposta do ajuste fiscal de R$ 200 bilhões (tesouraço): impactos sobre o emprego, a renda e os trabalhadores* — Síntese Especial / Subsídios para Debate nº 25 (22/10/2026).
 - **Instituição**: DIEESE.
-- **Arquivo Local**: [[atheneu/99_Sistema/_anexos/pdfs/dieese_impactos_ajuste_fiscal_200bi_2026.pdf|PDF Integral (18 páginas)]]
+- **Arquivo Local**: [[dieese_impactos_ajuste_fiscal_200bi_2026.pdf|PDF Integral (18 páginas)]]
 
 ### Síntese Executiva
 - **Estrutura Inescapável do Orçamento Federal**: Como transferências de renda às famílias (Previdência, abono salarial, seguro-desemprego e BPC), pessoal ativo/inativo (17%) e custeio constitucional de Saúde/Educação compõem a quase totalidade da despesa primária, um corte linear de R$ 200 bilhões exige comprimir diretamente benefícios previdenciários, pisos sociais e investimento público.

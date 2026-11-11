@@ -1,12 +1,16 @@
 ---
 tags:
   - moc
-atualizado: 2026-11-06
+atualizado: 2026-11-08
 ---
 
 # MOC — Política e Sociedade
 
 Portal de navegação para instituições democráticas, psicologia e comunicação política, Poder Legislativo, segurança pública, conflitos territoriais e política estadual do Rio Grande do Norte.
+
+> [!tip] Sub-Portais e Eixos Relacionados
+> - **Esforço Tático (`05_Esforcos/`)**: [[MOC_Eleicoes_2026]]
+> - **Eixo Transversal de Economia Política**: [[MOC_Combate_Austeridade_Fiscal]]
 
 ---
 

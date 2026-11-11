@@ -1,12 +1,15 @@
 ---
 tags:
   - moc
-atualizado: 2026-11-06
+atualizado: 2026-11-08
 ---
 
 # MOC — Economia
 
 Portal de navegação para teoria macroeconômica, política fiscal e monetária, economia brasileira, energia, previdência social, regulação financeira e orçamento público.
+
+> [!tip] Eixo Transversal em Destaque
+> Para visualizar de forma unificada todas as notas econômicas, políticas, fontes e roteiros sobre juros, dívida pública e crítica aos cortes fiscais, acesse o Sub-MOC [[MOC_Combate_Austeridade_Fiscal]].
 
 ---
 

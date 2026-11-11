@@ -2,6 +2,7 @@
 data: {{date}}
 tags:
   - diario
+status: semente
 ---
 
 # Diário — {{date}}

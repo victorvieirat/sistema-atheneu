@@ -16,7 +16,7 @@ Portal de navegação para engenharia de software, arquitetura em nuvem, seguran
 
 ## 2. Engenharia de Fluxos com IA e Gestão de Conhecimento
 - [[Engenharia_Fluxo_Gemini_Pro_e_Workspace]] — Uso avançado de Deep Research, Gems especializados, Gemini Canvas, Projetos no Google Drive e ancoragem documental via NotebookLM.
-- [[Padrao_Prompt_Fechamento_para_Gestao_Conhecimento]] — Técnica de síntese estruturada de fim de sessão ("Modo Arquivo") para alimentar a `00_Inbox/` sem ruído conversacional.
+- [[Padrao_Prompt_Fechamento_para_Gestao_Conhecimento]] — Técnica de síntese estruturada de fim de sessão ("Modo Arquivo") para alimentar `01_Diario/` sem ruído conversacional.
 
 ---
 

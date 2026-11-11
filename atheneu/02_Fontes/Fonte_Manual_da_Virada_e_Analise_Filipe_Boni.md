@@ -2,7 +2,7 @@
 tipo_fonte: manual_e_midia
 autor: "Coletivo Voluntário Manual da Virada & Análise de Filipe Boni"
 ano: 2026
-url_ou_arquivo: "[[atheneu/99_Sistema/_anexos/pdfs/manual_da_virada_original.pdf]]"
+url_ou_arquivo: "[[manual_da_virada_original.pdf]]"
 mocs:
   - "[[MOC_Politica]]"
   - "[[MOC_Eleicoes_2026]]"
@@ -17,7 +17,7 @@ atualizado: 2026-11-02
 
 ### Referência Primária
 - **Documento Base**: *Manual da Virada — Como transformar conversa em voto, com o que a pesquisa mostra que funciona* (outubro de 2026, baseado em dados do TSE, Datafolha, Quaest e literatura experimental de *deep canvassing*).
-- **Arquivo Local**: [[atheneu/99_Sistema/_anexos/pdfs/manual_da_virada_original.pdf|PDF Original (19 páginas)]]
+- **Arquivo Local**: [[manual_da_virada_original.pdf|PDF Original (19 páginas)]]
 - **Análise em Vídeo Complementar**: Filipe Boni — [*Me Mandaram um Manual Pra Virar a Eleição. Será Que Funciona?*](https://www.youtube.com/watch?v=s8iF-GwNF8Y)
 
 ### Síntese Executiva

@@ -1,7 +1,7 @@
 {
-  "attachmentFolderPath": "atheneu/99_Sistema/_anexos",
+  "attachmentFolderPath": "atheneu/99_Sistema/_anexos/img",
   "newFileLocation": "folder",
-  "newFileFolderPath": "atheneu/00_Inbox",
+  "newFileFolderPath": "atheneu/01_Diario",
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "showUnsupportedFiles": false,
@@ -11,6 +11,6 @@
     "scripts/",
     "mcp/",
     "atheneu/98_Privado/",
-    "atheneu/99_Sistema/"
+    "atheneu/99_Sistema/_templates/"
   ]
 }

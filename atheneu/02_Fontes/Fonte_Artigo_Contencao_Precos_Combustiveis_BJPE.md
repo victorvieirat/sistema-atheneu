@@ -2,7 +2,7 @@
 tipo_fonte: artigo_cientifico
 autor: "Edmar Luis Fagundes de Almeida, Patricia Vargas de Oliveira e Luciano Losekann"
 ano: 2015
-url_ou_arquivo: "[[atheneu/99_Sistema/_anexos/pdfs/estudo_contencao_precos_combustiveis_2015.pdf]]"
+url_ou_arquivo: "[[estudo_contencao_precos_combustiveis_2015.pdf]]"
 mocs:
   - "[[MOC_Economia]]"
 tags:
@@ -17,7 +17,7 @@ atualizado: 2026-11-02
 ### Referência Primária
 - **Título Original**: *Impactos da contenção dos preços de combustíveis no Brasil e opções de mecanismos de precificação*
 - **Autores e Publicação**: Edmar Luis Fagundes de Almeida, Patricia Vargas de Oliveira e Luciano Losekann — *Brazilian Journal of Political Economy (Revista de Economia Política)*, v. 35, n. 3 (140), p. 531–556, jul./set. 2015.
-- **Arquivo Local**: [[atheneu/99_Sistema/_anexos/pdfs/estudo_contencao_precos_combustiveis_2015.pdf|PDF Integral (26 páginas)]]
+- **Arquivo Local**: [[estudo_contencao_precos_combustiveis_2015.pdf|PDF Integral (26 páginas)]]
 
 ### Síntese Executiva
 - **Diagnóstico do Período 2011–2014**: Analisa os efeitos financeiros e setoriais do uso prolongado da defasagem dos preços de gasolina, diesel e GLP nas refinarias da Petrobras como instrumento anti-inflacionário num momento em que a demanda interna crescia acima da capacidade instalada de refino.

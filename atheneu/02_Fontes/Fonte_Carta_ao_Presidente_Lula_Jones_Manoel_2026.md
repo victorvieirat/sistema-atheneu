@@ -2,7 +2,7 @@
 tipo_fonte: manifesto_politico
 autor: "Jones Manoel (Dep. Federal eleito PSOL-PE) e Pedro Alcântara (Vice-presidente PT-PE)"
 ano: 2026
-url_ou_arquivo: "[[atheneu/99_Sistema/_anexos/pdfs/carta_ao_presidente_lula_jones_manoel_2026.pdf]]"
+url_ou_arquivo: "[[carta_ao_presidente_lula_jones_manoel_2026.pdf]]"
 mocs:
   - "[[MOC_Politica]]"
   - "[[MOC_Eleicoes_2026]]"
@@ -24,7 +24,7 @@ atualizado: 2026-11-02
 - **Autores**:
   - **Jones Manoel** — Historiador, educador popular, doutorando em Serviço Social pela UFAL e Deputado Federal eleito pelo PSOL Pernambuco.
   - **Pedro Alcântara** — Professor, doutor em Ciências Sociais pela UFRN e vice-presidente do PT Pernambuco.
-- **Arquivo Local**: [[atheneu/99_Sistema/_anexos/pdfs/carta_ao_presidente_lula_jones_manoel_2026.pdf|PDF Integral (13 páginas)]]
+- **Arquivo Local**: [[carta_ao_presidente_lula_jones_manoel_2026.pdf|PDF Integral (13 páginas)]]
 
 ### Síntese Executiva
 - **Contraponto Histórico à Carta de 2002 e Aritmética do 2º Turno**: Reverte o sentido da *Carta ao Povo Brasileiro* (2002) — argumentando que o compromisso com o sistema financeiro foi cumprido integralmente sem impedir o apoio do mercado a Jair Bolsonaro (2018) e a euforia bursátil pró-Flávio Bolsonaro (out/2026). Sustenta que o voto puramente defensivo ("medo da extrema-direita") atingiu seu teto no 1º turno e que a vitória exige reconquistar parte dos **33 milhões de abstencionistas** (peso 1) e dos trabalhadores que votaram em Flávio Bolsonaro por revolta antissistema (peso dobrado: `-1` no adversário, `+1` no campo democrático).

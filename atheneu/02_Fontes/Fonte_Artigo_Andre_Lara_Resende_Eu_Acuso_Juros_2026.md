@@ -7,6 +7,7 @@ mocs:
   - "[[MOC_Economia]]"
   - "[[MOC_Politica]]"
   - "[[MOC_Eleicoes_2026]]"
+  - "[[MOC_Combate_Austeridade_Fiscal]]"
 tags:
   - fonte
   - juros
@@ -14,6 +15,7 @@ tags:
   - divida-publica
   - sus
   - ocde
+  - austeridade
 atualizado: 2026-11-06
 ---
 

@@ -7,13 +7,12 @@ mocs:
   - "[[MOC_Economia]]"
   - "[[MOC_Politica]]"
   - "[[MOC_Eleicoes_2026]]"
+  - "[[MOC_Combate_Austeridade_Fiscal]]"
 tags:
   - fonte
-  - youtube
   - austeridade
   - sus
-  - politica-fiscal
-  - taxa-de-juros
+  - juros
 atualizado: 2026-11-02
 ---
 

@@ -1,12 +1,12 @@
 ---
 tags:
   - moc
-atualizado: 2026-11-06
+atualizado: 2026-11-08
 ---
 
 # MOC — Eleições 2026 (Estratégia, Dados e Repertório)
 
-Mapa operacional que articula a metodologia de virada de voto, a base empírica macroeconômica/legislativa e os repertórios retóricos de diálogo cotidiano construídos para o ciclo eleitoral de 2026 (nível federal e Rio Grande do Norte).
+Mapa operacional do esforço **`05_Esforcos/Eleicoes_2026/`** que articula a metodologia de virada de voto, a base empírica macroeconômica/legislativa de `03_Jardim/` e os repertórios retóricos de diálogo cotidiano construídos para o ciclo eleitoral de 2026 (nível federal e Rio Grande do Norte). Ver também o eixo transversal [[MOC_Combate_Austeridade_Fiscal]].
 
 ---
 
@@ -18,7 +18,7 @@ Mapa operacional que articula a metodologia de virada de voto, a base empírica 
 
 ## 2. Eixos Temáticos: Fundamentação Empírica ↔ Repertório Retórico
 
-| Eixo de Disputa | Base Conceitual e Factual (`03_Jardim/`) | Objeções e Respostas Práticas (`03_Jardim/`) |
+| Eixo de Disputa | Base Conceitual e Factual (`03_Jardim/`) | Objeções e Respostas Práticas (`05_Esforcos/`) |
 | :--- | :--- | :--- |
 | **Previdência, Salário Mínimo e Ajuste Fiscal** | [[Regra_Valorizacao_Salario_Minimo_Previdencia_e_BPC]]<br>[[Arcabouco_Fiscal_Teto_de_Gastos_e_Ajuste_Recessivo]]<br>[[Metrica_Material_da_Austeridade_e_Servicos_Publicos]]<br>[[Macroeconomia_Estruturalista_e_Multiplicador_Fiscal]]<br>[[Soberania_Monetaria_e_Reservas_Cambiais_Brasil]]<br>[[Servico_da_Divida_Selic_e_Restricao_Externa_Desindustrializacao]] | [[Repertorio_Retorico_Previdencia_e_Corte_Social]]<br>[[Repertorio_Retorico_Gasto_Social_OCDE_Juros_e_Industrializacao]] |
 | **Combustíveis, Petrobras e Custo de Vida** | [[Politica_Precos_Petrobras_PPI_e_Inflacao_de_Custos]] | [[Repertorio_Retorico_Combustiveis_e_Custo_de_Vida]] |

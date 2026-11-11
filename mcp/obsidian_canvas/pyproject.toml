@@ -1,0 +1,18 @@
+[project]
+name = "obsidian-canvas-mcp"
+version = "0.1.0"
+description = "Servidor MCP para leitura, criação e edição de mapas Obsidian Canvas (JSON Canvas 1.0)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.3.0,<2",
+    "pydantic>=2.0.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+include = ["*.py"]
+
