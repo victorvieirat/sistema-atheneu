@@ -16,12 +16,21 @@ atheneu/98_Privado/
 **/desktop.ini
 .DS_Store
 Thumbs.db
+*.gdoc
+*.gsheet
+*.gslides
 
 # Temporários de escrita atômica e Python
 *.tmp
 __pycache__/
 *.py[cod]
 .venv/
+
+# Quartz SSG e Frontend
+node_modules/
+public/
+.quartz/
+.quartz-cache/
 
 # Exports derivados em PDF (apenas estudos/fontes em _anexos/pdfs são versionados)
 atheneu/99_Sistema/_exports/

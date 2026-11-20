@@ -10,6 +10,8 @@
   "userIgnoreFilters": [
     "scripts/",
     "mcp/",
+    "quartz/",
+    "node_modules/",
     "atheneu/98_Privado/",
     "atheneu/99_Sistema/_templates/"
   ]
