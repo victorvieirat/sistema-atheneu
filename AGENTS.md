@@ -3,24 +3,26 @@
 Repositório de gestão de conhecimento pessoal multidisciplinar (Política, Economia, Carreira & Tecnologia, Biologia & Saúde, Filosofia, História, Moda & Beleza, Família & Relações). Foco em notas permanentes organizadas por grande domínio, Sub-MOCs transversais, compreensão ativa (Feynman) e conexões bidirecionais 100% compatíveis com Obsidian e visualizadores Markdown.
 
 ## Arquitetura do Repositório
-- **Raiz (`sistema-atheneu/`)**: Vault do Obsidian e repositório Git privado.
-  - `AGENTS.md`: Regras universais de escrita, organização e automação.
-  - `atheneu/`: Núcleo de conteúdo sincronizado com o Google Drive.
+- **Raiz (`sistema-atheneu/`)**: Vault do Obsidian e **repositório Git público**, publicado automaticamente no **GitHub Pages via Quartz v5** (`https://victorvieirat.github.io/sistema-atheneu/`).
+  - `AGENTS.md`: Regras universais de escrita, privacidade pública, formatação dual (Obsidian + Quartz) e automação.
+  - `atheneu/`: Núcleo de conteúdo sincronizado com o Google Drive e compilado pelo Quartz (`npx quartz build -d atheneu`).
+  - `quartz/`, `quartz.config.yaml` e `.github/workflows/deploy.yml`: Motor de geração estática e pipeline de publicação no GitHub Pages (ocultos da navegação visual do Obsidian).
   - `scripts/`, `mcp/` e `.agents/skills/`: Motor técnico e skills contextuais (ocultos da navegação visual do Obsidian).
 - **Estrutura de `atheneu/`**:
-  - `000_Home.md`: Portal central de entrada e navegação pelos MOCs, Sub-MOCs e `Painel_Ateneo.base`.
+  - `000_Home.md` (e `index.md`): Portal central de entrada e navegação pelos MOCs, Sub-MOCs e `Painel_Ateneo.base`.
   - `Painel_Ateneo.base`: Painel dinâmico do Obsidian Bases filtrado por `status:`, pasta e eixos transversais.
-  - `01_Diario/`: Porta única de captura e registros do dia a dia — aceita notas cronológicas (`YYYY-MM-DD.md`), rascunhos temáticos livres, links de estudo e exports externos aguardando triagem (`status: semente`).
+  - `01_Diario/`: Porta única de **anotações diárias de estudo** e capturas (não é um diário pessoal/íntimo) — aceita notas cronológicas (`YYYY-MM-DD.md`), rascunhos temáticos livres, links de estudo e exports externos aguardando triagem (`status: semente`).
   - `02_Fontes/`: Fichamentos de livros, artigos científicos, relatórios em PDF, vídeos e links externos (`Fonte_*.md`). Dados brutos e tabelas extensas de referência moram prioritariamente aqui.
   - `03_Jardim/`: Coração atemporal da biblioteca, organizado em subpastas pelos grandes domínios ativos (`Economia/`, `Politica/`, `Carreira_e_Tecnologia/`, `Biologia_e_Saude/`, `Moda_e_Beleza/`). Notas que cruzam áreas ficam na subpasta de seu mecanismo principal e conectam-se às demais via `mocs:` no YAML e tags.
   - `04_MOCs/`: Mapas de Conteúdo de grande área (`MOC_<Dominio>.md`), **Sub-MOCs transversais** (`MOC_<Assunto>.md`, ex.: `MOC_Combate_Austeridade_Fiscal.md`) e **Mapas Visuais de Blindagem/Síntese** no formato nativo Obsidian Canvas (`MOC_<Assunto>.canvas`, especificação JSON Canvas 1.0) criados quando um tema cruza múltiplas notas, áreas ou rodadas de debate teórico.
   - `05_Esforcos/`: Entregas práticas, campanhas, roteiros táticos e projetos com recorte temporal (ex.: `05_Esforcos/Eleicoes_2026/`), separados do conhecimento atemporal do Jardim.
-  - `98_Privado/`: Notas íntimas e sensíveis (sincronizadas apenas com o Google Drive, ignoradas no Git).
+  - `98_Privado/`: Notas íntimas e sensíveis (sincronizadas apenas com o Google Drive, estritamente ignoradas no Git e no `ignorePatterns` do Quartz).
   - `99_Sistema/`: Suporte estrutural (`_anexos/img/`, `_anexos/pdfs/` e `_templates/`).
 
-## Barreira Estrita de Privacidade (`atheneu/98_Privado/`)
-- **Bloqueio Espontâneo**: Agentes de IA estão **estritamente proibidos** de listar, ler, buscar, resumir ou indexar qualquer arquivo dentro de `atheneu/98_Privado/` por iniciativa própria.
-- O acesso a um arquivo dessa pasta só é permitido se o usuário solicitar explicitamente o caminho ou nome exato da nota no prompt atual.
+## Barreira Estrita de Privacidade e Anonimização Pública (`atheneu/98_Privado/` e Repositório Público)
+- **Bloqueio Espontâneo (`atheneu/98_Privado/`)**: Agentes de IA estão **estritamente proibidos** de listar, ler, buscar, resumir ou indexar qualquer arquivo dentro de `atheneu/98_Privado/` por iniciativa própria. O acesso a um arquivo dessa pasta só é permitido se o usuário solicitar explicitamente o caminho ou nome exato da nota no prompt atual.
+- **Proibição de Informações Sensíveis e de Pessoas Próximas no Cofre Público**: Como o repositório Git e o site GitHub Pages são **públicos**, jamais inclua nomes reais, apelidos identificáveis, relatos íntimos ou situações privadas de **amigos próximos, familiares, colegas ou terceiros não-públicos**, nem dados pessoais identificáveis (PII: CPF, telefones, endereços residenciais, e-mails pessoais reais, senhas ou chaves/tokens de API) em qualquer pasta pública (`01_Diario/`, `02_Fontes/`, `03_Jardim/`, `04_MOCs/`, `05_Esforcos/`).
+- **Dever Ativo de Alerta e Abstração pelo Agente**: Sempre que o usuário mencionar amigos, familiares ou casos pessoais em um prompt para criar ou editar notas fora de `98_Privado/`, o agente deve **lembrar o usuário dessa diretriz de proteção** e **abstrair/anonimizar o relato para o conceito técnico, filosófico ou comportamental geral** antes de gravar no cofre.
 
 ## Comportamento Geral e Escrita
 - **Preservação de Autoria**: Em caso de ambiguidade em reflexões pessoais (Filosofia, Família, Carreira, Diário), preserve o tom original do usuário e sinalize sugestões ao final — nunca invente fatos pessoais.
@@ -47,6 +49,12 @@ Repositório de gestão de conhecimento pessoal multidisciplinar (Política, Eco
   - Permitidos em `03_Jardim/` e `05_Esforcos/`: `> [!note]` (bloco Feynman/dúvidas), `> [!quote]` (citações literais de autores/fontes), `> [!tip]` (insights práticos e aplicações acionáveis), `> [!warning]` (vieses cognitivos, riscos técnicos ou contradições lógicas).
   - Máximo de 2 callouts informativos por nota (além do bloco Feynman inicial). Zero emojis decorativos no corpo das notas do Jardim.
 - **Política de PDFs**: Apenas livros, artigos científicos e relatórios primários são armazenados em `atheneu/99_Sistema/_anexos/pdfs/` (acompanhados de ficha em `02_Fontes/`). PDFs que sejam meras cópias exportadas de notas `.md` jamais devem ser salvos ou versionados no cofre.
+- **Compatibilidade Dual (Obsidian Desktop + GitHub Pages / Quartz v5)**:
+  - **Links e Anexos**: Utilize sempre o formato canônico curto (`shortest`) `[[Nome_da_Nota]]` e `![[arquivo.ext]]`. Dentro de tabelas Markdown, escape obrigatoriamente o pipe de alias como `[[Nome_da_Nota\|Texto]]`.
+  - **Frontmatter YAML Estrito**: Nunca deixe placeholders de template não resolvidos (ex.: `{{date}}`) em notas fora de `99_Sistema/_templates/`; mantenha todos os WikiLinks do YAML entre aspas (`"[[MOC_...]]"`).
+  - **Fechamento de Comentários (`%% IA_CONTEXTO` ... `%%`)**: Todo bloco de contexto oculto deve abrir com `%% IA_CONTEXTO` (na primeira linha) e fechar com `%%` (após a transcrição, formando número par de delimitadores `%%`), para que tanto o Obsidian quanto o parser `obsidian-flavored-markdown` do Quartz ocultem todo o bloco no HTML público.
+  - **LaTeX (KaTeX), Callouts e Mermaid**: Escape cifrões monetários literais em prosa como `\$` (ou use backticks `` `R$ 100` ``) para não abrir blocos matemáticos acidentais; utilize apenas callouts nativos (`[!note]`, `[!tip]`, `[!warning]`, `[!quote]`) e envolva rótulos Mermaid que contenham parênteses/colchetes entre aspas duplas (`id["Texto (Info)"]`).
+  - **Boas Práticas para Futuros `.base` e `.canvas`**: Como o Obsidian Desktop abre na raiz do repositório (`sistema-atheneu/`) e o Quartz compila `-d atheneu`, em novos arquivos `.base` prefira filtros por propriedades/tags (`status`, `file.hasTag(...)`, `file.hasLink(...)`) ou combine `or` com e sem o prefixo `atheneu/` (`file.inFolder("atheneu/03_Jardim")` e `file.inFolder("03_Jardim")`); em novos `.canvas`, garanta que os cartões de texto sempre tragam o `[[WikiLink]]` curto da nota referenciada.
 
 ## Fluxo de Triagem e Ciclo de Vida (`01_Diario/` e `## RASCUNHOS`)
 - **Consolidação**: Ao executar a rotina de triagem em capturas maduras de `01_Diario/` (incluindo documentos `.docx` ou `.md` salvos a partir do Gemini Pro no Google Drive) ou na seção transitória `## RASCUNHOS` ao final de uma nota existente:

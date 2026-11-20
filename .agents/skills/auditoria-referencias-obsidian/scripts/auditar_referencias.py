@@ -352,6 +352,77 @@ class VaultAuditor:
                 if tn not in node_ids:
                     self.log_error(p, f"Aresta '{eid}': toNode '{tn}' aponta para nó inexistente.")
 
+    def check_privacy_and_quartz_compat(self):
+        safe_email_patterns = (
+            'seu_email', 'example.', 'exemplo.', 'usuario@', 'user@', 'teste@', 'email@'
+        )
+        cpf_re = re.compile(r'\b\d{3}\.\d{3}\.\d{3}-\d{2}\b')
+        phone_re = re.compile(
+            r'(?:\+55\s*\(?\d{2}\)?\s*9?\d{4}-\d{4}|\(\d{2}\)\s*9?\d{4}-\d{4})'
+        )
+        email_re = re.compile(r'\b[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+\b')
+        secret_re = re.compile(r'\b(?:AIza[0-9A-Za-z\-_]{35}|ghp_[0-9A-Za-z]{36}|sk-[0-9A-Za-z]{32,})\b')
+        private_marker_re = re.compile(r'\b(?:NAO_PUBLICAR|CONFIDENCIAL_PRIVADO)\b')
+
+        for p, content in self.notes.items():
+            is_template = '_templates' in p
+
+            # 1. Check unresolved {{...}} placeholders in YAML frontmatter outside templates
+            fm_m = re.match(r'^---\s*\n(.*?)\n---', content, re.S)
+            if fm_m and not is_template:
+                yaml_block = fm_m.group(1)
+                if re.search(r'\{\{[^}]+\}\}', yaml_block):
+                    self.log_error(
+                        p,
+                        "Frontmatter YAML contém placeholder '{{...}}' não resolvido (incompatível com o build do Quartz)."
+                    )
+
+            # 2. Check balanced %% Obsidian comment delimiters outside code blocks and check PII
+            in_code_block = False
+            comment_delim_count = 0
+
+            for idx, line in enumerate(content.splitlines(), 1):
+                if line.strip().startswith('```'):
+                    in_code_block = not in_code_block
+                    continue
+                if in_code_block:
+                    continue
+
+                line_no_inline_code = re.sub(r'`[^`]*`', '', line)
+                comment_delim_count += len(re.findall(r'%%', line_no_inline_code))
+
+                if not is_template and re.match(r'^\s*%%\s*IA_CONTEXTO\s*%%\s*$', line_no_inline_code):
+                    self.log_error(
+                        p,
+                        f"Linha {idx}: '%% IA_CONTEXTO %%' fechado na mesma linha (use '%% IA_CONTEXTO' no início e '%%' ao final do bloco para ocultar a transcrição no Obsidian e no Quartz)."
+                    )
+
+                if is_template:
+                    continue
+
+                for m in cpf_re.finditer(line):
+                    self.log_error(p, f"Linha {idx}: Possível CPF detectado em nota pública: '{m.group(0)}'")
+
+                for m in phone_re.finditer(line):
+                    self.log_error(p, f"Linha {idx}: Possível telefone pessoal detectado em nota pública: '{m.group(0)}'")
+
+                for m in email_re.finditer(line):
+                    em = m.group(0).lower()
+                    if not any(pat in em for pat in safe_email_patterns):
+                        self.log_warning(p, f"Linha {idx}: E-mail detectado em nota pública (verifique se não é dado pessoal): '{m.group(0)}'")
+
+                if secret_re.search(line):
+                    self.log_error(p, f"Linha {idx}: Possível chave de API ou token secreto detectado.")
+
+                if private_marker_re.search(line):
+                    self.log_error(p, f"Linha {idx}: Marcador de conteúdo privado (NAO_PUBLICAR) fora de 98_Privado.")
+
+            if comment_delim_count % 2 != 0:
+                self.log_error(
+                    p,
+                    f"Quantidade ímpar de delimitadores '%%' ({comment_delim_count}). Bloco de comentário não fechado pode vazar ou ocultar texto no Quartz."
+                )
+
     def run_check(self):
         print(f"[INSTRUCAO] Iniciando auditoria de referências locais em '{self.vault_dir}'...")
         self.scan_vault()
@@ -359,6 +430,7 @@ class VaultAuditor:
         self.check_obsidian_configs()
         self.check_wikilinks_and_markdown()
         self.check_canvas_files()
+        self.check_privacy_and_quartz_compat()
         
         print("\n" + "="*50)
         print(f"RESUMO DA AUDITORIA: {len(self.errors)} erro(s), {len(self.warnings)} aviso(s)")
@@ -433,7 +505,9 @@ class VaultAuditor:
             print(f"  - {p}")
             
         if not auto_confirm:
-            ans = input("\nDeseja aplicar as correções atômicas em UTF-8? [S/n]: ").strip().lower()
+            sys.stdout.write("\nDeseja aplicar as correções atômicas em UTF-8? [S/n]: ")
+            sys.stdout.flush()
+            ans = sys.stdin.readline().strip().lower()
             if ans not in ('s', 'sim', 'y', 'yes', ''):
                 print("[INFO] Operação cancelada pelo usuário.")
                 return 0
